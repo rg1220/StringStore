@@ -1,0 +1,39 @@
+{
+  "name": "StringStore",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {},
+  "description": "Store name-value pairs in an array-like fashion.",
+  "main": "StringStore.js",
+  "scripts": {
+    "test": "mocha tests/*test.js"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rg1220/StringStore.git"
+  },
+  
+  "keywords": [
+    "StringStore",
+	"Storage",
+	"MongoDB"
+  ],
+  
+  "author": {
+    "name": "Randy Groff",
+    "email": "randy@randygroff.com",
+	"url": "https://randygroff.com"
+  },
+  
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rg1220/StringStore/issues"
+  },
+  
+  "dependencies": {
+    "mongodb": "~2.0.31",
+	"mocha": "~2.2.5",
+	"chai": "~3.0.0"
+  }
+}
