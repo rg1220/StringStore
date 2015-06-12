@@ -42,5 +42,5 @@ Push value for name:
 ##### Push Many    
 Push values for name:
 
-    db.push('name', ['value0', 'value1', 'value2'], function(err) {
+    db.pushMany('name', ['value0', 'value1', 'value2'], function(err) {
     });
