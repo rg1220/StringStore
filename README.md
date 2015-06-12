@@ -8,7 +8,7 @@ This library lets you store name-value pairs in a MongoDB database.
 
 Require `StringStore`:
 
-    var StringStore = require('StringStore');
+    var StringStore = require('stringstore');
   
 Connect to a database:
 
